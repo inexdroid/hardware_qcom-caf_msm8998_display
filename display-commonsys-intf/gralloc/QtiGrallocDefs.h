@@ -78,6 +78,9 @@
 #define GRALLOC_USAGE_PRIVATE_VIDEO_HW           1ULL << 52
 
 
+/* This flag is used to indicate No UBWC-P support */
+#define GRALLOC_USAGE_PRIVATE_NO_UBWC_P          1ULL << 54
+
 // OEM specific HAL formats
 #define HAL_PIXEL_FORMAT_RGBA_5551 6
 #define HAL_PIXEL_FORMAT_RGBA_4444 7
